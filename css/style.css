@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(2, 133, 143);
+    color: #ffffff;
+    padding-top: 100px;
+}
+.form-control{
+    background-color:rgba(252, 240, 240, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 5px;
+    padding: 9px 25px;
+    background-color: rgb(13, 13, 14);
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(62, 168, 62);
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.foodDetails{
+    text-align: center;
+}
+.card img{
+    height: 70%;
+}
+#foodList{
+    padding:  5%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    grid-gap: 15px;
+}
+.empty-meal{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.search-heading{
+    color: rgb(255, 157, 0);
+}
+.after-click-details{
+    margin-left: 35%;
+    margin-right: 20%;
+    background-color: rgb(247, 248, 228);
+    border-radius: 10px;
+    padding: 1% 1%;
+    width: 500px;
+    height: 30%;
+}
+.after-click-details img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+.ingredientList{
+    color: black;
+    margin-left: 5%;
+}
